@@ -4,13 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <!-- Подключить шрифты -->
+  <!-- Подключить Normalize.css -->
   <title>Nerds</title>
 </head>
 <body>
 
   <header>
     <nav>
-      <a href="#" class="nav-logo"><img src="img\svg\nerds-logo.svg" alt="Главная страница" height="150" width="160"></a>
+      <a href="#" class="nav-logo"><img src="img\svg\nerds-logo.svg" alt="Главная страница" class="logo" height="65" width="160"></a>
       <ul class="nav-list">
         <li>Студия</li>
         <li>Клиенты</li>
@@ -18,12 +21,12 @@
         <li>Контакы</li>
       </ul>
       <ul class="nav-items">
-        <li><img src="img\svg\cart-icon.svg" alt="Здесь можна оформить Ваш заказ" width="15"></li>
+        <li><img src="img\svg\cart-icon.svg" alt="Здесь можна оформить Ваш заказ" height="15" width="15"></li>
         <li>Козина</li>
       </ul>
     </nav>
     <div class="nav-slogan">
-      <p class="slogan">Долго, дорого, скурпулезно.</p>
+      <p><span class="slogan">Долго, дорого, скурпулезно.</span></p>
       <p>
         Математически вывереренный дизайн<br>
       для вашего сайта или мобильного приложения.
@@ -31,13 +34,13 @@
       <button type="button" name="button"><a href="#">
       Узнать больше</a></button>
     </div>
-    <img src="img\slide1.png" alt="Настройка телефонов" width="692">
+    <img src="img\slide1.png" alt="Настройка телефонов" class="pic" height="420" width="692">
   </header>
 
-  <main class="main">
-    <section class="services">
+  <main>
+    <section class="features">
       <article class="site">
-        <img src="img\illustration-1.jpg" alt="Веб-сайты" width="300">
+        <img src="img\illustration-1.jpg" class="img" alt="Веб-сайты" height="145" width="300">
         <h3>Веб-сайт</h3>
         <p>
           Мир никогда не будет прежним<br>
@@ -46,7 +49,7 @@
         <button type="submit" name="button">Заказать</button>
       </article>
       <article class="play">
-        <img src="img\illustration-2.jpg" alt="Приложения" width="300">
+        <img src="img\illustration-2.jpg" class="img" alt="Приложения" height="145" width="300">
         <h3>Приложения</h3>
         <p>
           Покорите топ-10 приложений<br>
@@ -55,7 +58,7 @@
         <button type="submit" name="button">Заказать</button>
       </article>
       <article class="presentation">
-        <img src="img\illustration-3.jpg" alt="Презентации" width="300">
+        <img src="img\illustration-3.jpg" class="img" alt="Презентации" height="145" width="300">
         <h3>Презентации</h3>
         <p>
           Вы даже не подозреваете,<br>
@@ -66,28 +69,28 @@
     </section>
 
     <section class="info">
-      <article class="about-us">
+      <article class="desc">
         <p>
-          Мы - маленькая, но гордая<br>
-          дизайн-студия из Краснодара.
+          <span class="slogan">Мы - маленькая, но гордая<br>
+          дизайн-студия из Краснодара.</span>
         </p>
         <p>
           Исповедуем принцыпы минимализма и чистоты. Ставим математический расчет<br>
           превыше креатива. Работаем не покладая рук, как роботы.
         </p>
         <ul>
-          <li>Выполняем заказы на разработку:</li>
+          <li class="item">Выполняем заказы на разработку:</li>
           <li>Веб-сайтов любой сложности</li>
-          <li>Мобильніх приложений для АЙОС и Андроид</li>
+          <li>Мобильніх приложений для iOS и Android</li>
           <li>Слайдшоу и видео для корпаративніх презентаций</li>
         </ul>
       </article>
       <article class="status">
-        <img src="img\nerds-illustration.jpg" alt="Мы ответственные" width="360">
-        <p>
+        <img src="img\nerds-illustration.jpg" class="pic" alt="Мы ответственные" height="210" width="360">
+        <p class="text">
           С 2004 года любим точность во всем:
         </p>
-        <table>
+        <table class="responsibility">
           <tr>
             <th>146<span class="interest">%</span></th>
             <th>100<span class="interest">%</span></th>
@@ -106,21 +109,21 @@
     </section>
 
     <section class="partners">
-      <ul>
-        <li><a href="https://htmlacademy.ru/study"><img src="img\logo-1.png" alt="Академия" width="200"></a></li>
-        <li><a href="№"><img src="img\logo-2.png" alt="Барбершоп" width="200"></a></li>
-        <li><a href="№"><img src="img\logo-3.png" alt="Пинк" width="200"></a></li>
-        <li><a href="№"><img src="img\logo-4.png" alt="Мишка" width="200"></a></li>
+      <ul class="list">
+        <li><a href="https://htmlacademy.ru/study"><img src="img\logo-1.png" alt="Академия" height="70" width="200"></a></li>
+        <li><a href="№"><img src="img\logo-2.png" alt="Барбершоп" height="70" width="200"></a></li>
+        <li><a href="№"><img src="img\logo-3.png" alt="Пинк" height="70" width="200"></a></li>
+        <li><a href="№"><img src="img\logo-4.png" alt="Мишка" height="70" width="200"></a></li>
       </ul>
     </section>
     <section class="map">
       <div class="map-street">
-        <img src="img\map1.png" alt="Мы находимся" width="1440">
-        <img src="img\map-marker.png" alt="Улица Конюшенная д19\8" width="160">
+        <img src="img\map1.png" alt="Мы находимся" height="100%" width="100%">
+        <img src="img\map-marker.png" class="userpic" alt="Улица Конюшенная д19\8" width="150">
       </div>
       <div class="street">
-        <h3> nerds design syudio</h3>
-        <ul>
+        <h3 class="caption"> nerds design syudio</h3>
+        <ul class="list">
           <li>
             191183, Санкт-Петербург,<br>
             ул. Б. Конюшенная, д.19\8
@@ -145,7 +148,7 @@
       <li><a href="#"><img src="img\svg\insta-icon.svg" alt="мы в инстаграме" width="25"></a></li>
     </ul>
   </div>
-  <div class="sail">
+  <div class="friends">
     <ul>
       <li>
         <p>Давайте дружить, это выгодно!</p>
