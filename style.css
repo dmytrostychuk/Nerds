@@ -1,6 +1,32 @@
-h3 {
-  color: white;
-}
 body {
-  color: red;
+  font-size: 16px;
+  font-family: "Roboto", Arial, sans-serif;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  font-weight: normal;
+  color: #000000;
+  background-color: #fff;
+}
+
+a {
+text-decoration: none;
+}
+
+header {
+  background-color: #eeeeee;
+}
+
+.nav-list,
+.nav-items {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.slogan {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: bold;
 }
