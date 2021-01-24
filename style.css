@@ -1,0 +1,174 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto", Arial, sans-serif;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  font-weight: normal;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+text-decoration: none;
+}
+
+p {
+  color: #283136;
+}
+
+header {
+  background-color: #eeeeee;
+}
+
+.button {
+  font: inherit;
+  font-weight: bold;
+
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 5px;
+
+  background-color: #fb565a;
+  color: #ffffff;
+}
+
+.nav-list,
+.nav-items {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-items a:hover,
+.nav-items a:focus {
+  background-color: #3f5d5e;
+  color: #ffffff;
+
+}
+
+.slogan {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.main h3 {
+  text-transform: uppercase;
+
+  font-weight: bold;
+  font-size: 24px;
+
+  color: inherit;
+}
+
+.site .button {
+background-color: #fb565a;
+padding: 10px 20px;
+}
+
+.play .button {
+  background-color: #00ca74;
+  padding: 10px 20px;
+}
+
+.presentation .button {
+background-color: #efc849;
+padding: 10px 20px;
+}
+
+.slogan-info {
+  color: #000000;
+
+  font-size: 45px;
+  font-weight: bold;
+
+  line-height: 46px
+}
+
+ .list-work {
+   list-style: none;
+}
+
+.list-work li {
+ padding-top: 25px;
+
+}
+
+.list-work .item {
+ list-style: none;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+
+.status .text {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+}
+
+.responsibility th {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 20px 10px;
+}
+
+.interest {
+  vertical-align: super;
+  font-size: 25px;
+}
+
+.responsibility td {
+  line-height: 18px;
+}
+
+.partners .list {
+  list-style: none;
+}
+
+.street {
+  background-color: #inherit;
+}
+
+.street h3 {
+  color: #inherit;
+  font-size: 18px;
+  padding-bottom: 22px;
+}
+
+.street .adress {
+  line-height: 18px;
+}
+
+.message-button {
+  margin-top: 35px;
+}
+
+.icon li {
+  list-style: none;
+  padding: 40px;
+}
+
+.icon a {
+background-color: #e1e1e1;
+border-radius: 100%;
+padding: 40px
+}
+
+.sale li {
+  list-style: none;
+  line-height: 32px;
+}
+
+.sale .slogan {
+  font-weight: bold;
+  font-size: 36px;
+}
