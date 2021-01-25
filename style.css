@@ -1,0 +1,166 @@
+body {
+  font-size: 16px;
+  font-family: "Roboto", Arial, sans-serif;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  font-weight: normal;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+text-decoration: none;
+}
+
+p {
+  color: #283136;
+}
+
+.navigation {
+  background-color: #eeeeee;
+}
+
+.button {
+  font: inherit;
+  font-weight: bold;
+
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  padding: 15px 50px;
+  border: none;
+  border-radius: 5px;
+
+  background-color: #fb565a;
+  color: #ffffff;
+}
+
+.nav-list,
+.nav-basket {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  background-color: #3f5d5e;
+  color: #ffffff;
+
+}
+
+.slogan {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.main h3 {
+  text-transform: uppercase;
+
+  font-weight: bold;
+  font-size: 24px;
+
+  color: inherit;
+}
+
+.button-site {
+background-color: #fb565a;
+padding: 10px 20px;
+}
+
+.button-play {
+  background-color: #00ca74;
+  padding: 10px 20px;
+}
+
+.button-presentation {
+background-color: #efc849;
+padding: 10px 20px;
+}
+
+h2 {
+  color: #000000;
+
+  font-size: 45px;
+  font-weight: bold;
+
+  line-height: 46px
+}
+
+.desc .item {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ .list-work {
+   list-style: none;
+}
+
+.list-work li {
+ padding-top: 25px;
+
+}
+
+.list-work .item {
+ list-style: none;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+
+.status .text {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+}
+
+.responsibility th {
+  font-size: 45px;
+  font-weight: bold;
+  padding: 20px 10px;
+}
+
+.interest {
+  font-size: 25px;
+}
+
+.responsibility td {
+  line-height: 18px;
+}
+
+.partners .list {
+  list-style: none;
+}
+
+
+.street h3 {
+  font-size: 18px;
+  padding-bottom: 22px;
+}
+
+.street .adress {
+  line-height: 18px;
+}
+
+.message-button {
+  margin-top: 35px;
+}
+
+.socials li {
+  list-style: none;
+  padding: 40px;
+}
+
+.socials a {
+background-color: #e1e1e1;
+border-radius: 100%;
+padding: 40px
+}
+
+.copy {
+  line-height: 32px;
+}
