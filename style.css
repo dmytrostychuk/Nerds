@@ -18,11 +18,7 @@ p {
   color: #283136;
 }
 
-<<<<<<< HEAD
 .navigation {
-=======
-header {
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
   background-color: #eeeeee;
 }
 
@@ -42,24 +38,14 @@ header {
 }
 
 .nav-list,
-<<<<<<< HEAD
 .nav-basket {
-=======
-.nav-items {
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
   list-style: none;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .nav-list a:hover,
-<<<<<<< HEAD
 .nav-list a:focus {
-=======
-.nav-list a:focus,
-.nav-items a:hover,
-.nav-items a:focus {
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
   background-color: #3f5d5e;
   color: #ffffff;
 
@@ -81,38 +67,22 @@ header {
   color: inherit;
 }
 
-<<<<<<< HEAD
 .button-site {
-=======
-.site .button {
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
 background-color: #fb565a;
 padding: 10px 20px;
 }
 
-<<<<<<< HEAD
 .button-play {
-=======
-.play .button {
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
   background-color: #00ca74;
   padding: 10px 20px;
 }
 
-<<<<<<< HEAD
 .button-presentation {
-=======
-.presentation .button {
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
 background-color: #efc849;
 padding: 10px 20px;
 }
 
-<<<<<<< HEAD
 h2 {
-=======
-.slogan-info {
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
   color: #000000;
 
   font-size: 45px;
@@ -121,14 +91,11 @@ h2 {
   line-height: 46px
 }
 
-<<<<<<< HEAD
 .desc .item {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-=======
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
  .list-work {
    list-style: none;
 }
@@ -158,10 +125,6 @@ h2 {
 }
 
 .interest {
-<<<<<<< HEAD
-=======
-  vertical-align: super;
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
   font-size: 25px;
 }
 
@@ -173,17 +136,8 @@ h2 {
   list-style: none;
 }
 
-<<<<<<< HEAD
 
 .street h3 {
-=======
-.street {
-  background-color: #inherit;
-}
-
-.street h3 {
-  color: #inherit;
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
   font-size: 18px;
   padding-bottom: 22px;
 }
@@ -196,37 +150,17 @@ h2 {
   margin-top: 35px;
 }
 
-<<<<<<< HEAD
 .socials li {
-=======
-.icon li {
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
   list-style: none;
   padding: 40px;
 }
 
-<<<<<<< HEAD
 .socials a {
-=======
-.icon a {
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
 background-color: #e1e1e1;
 border-radius: 100%;
 padding: 40px
 }
 
-<<<<<<< HEAD
 .copy {
   line-height: 32px;
 }
-=======
-.sale li {
-  list-style: none;
-  line-height: 32px;
-}
-
-.sale .slogan {
-  font-weight: bold;
-  font-size: 36px;
-}
->>>>>>> 85846ff0a25a3898250775b316da69a4fcec38ea
