@@ -11,7 +11,7 @@ body {
 }
 
 a {
-text-decoration: none;
+  text-decoration: none;
 }
 
 p {
@@ -48,7 +48,6 @@ p {
 .nav-list a:focus {
   background-color: #3f5d5e;
   color: #ffffff;
-
 }
 
 .slogan {
@@ -68,8 +67,8 @@ p {
 }
 
 .button-site {
-background-color: #fb565a;
-padding: 10px 20px;
+  background-color: #fb565a;
+  padding: 10px 20px;
 }
 
 .button-play {
@@ -78,8 +77,8 @@ padding: 10px 20px;
 }
 
 .button-presentation {
-background-color: #efc849;
-padding: 10px 20px;
+  background-color: #efc849;
+  padding: 10px 20px;
 }
 
 h2 {
@@ -88,7 +87,7 @@ h2 {
   font-size: 45px;
   font-weight: bold;
 
-  line-height: 46px
+  line-height: 46px;
 }
 
 .desc .item {
@@ -96,21 +95,19 @@ h2 {
   text-transform: uppercase;
 }
 
- .list-work {
-   list-style: none;
+.list-work {
+  list-style: none;
 }
 
 .list-work li {
- padding-top: 25px;
-
+  padding-top: 25px;
 }
 
 .list-work .item {
- list-style: none;
- font-weight: bold;
- text-transform: uppercase;
+  list-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
-
 
 .status .text {
   text-transform: uppercase;
@@ -136,7 +133,6 @@ h2 {
   list-style: none;
 }
 
-
 .street h3 {
   font-size: 18px;
   padding-bottom: 22px;
@@ -155,12 +151,10 @@ h2 {
   padding: 40px;
 }
 
-
-.icon a {
-
-background-color: #e1e1e1;
-border-radius: 100%;
-padding: 40px
+.socials a {
+  background-color: #e1e1e1;
+  border-radius: 100%;
+  padding: 40px;
 }
 
 .copy {
